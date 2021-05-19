@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+}
+body {
+    /* background: url('../assets/track.jpg') no-repeat; */
+}
+.page_container {
+    height: 100vh;
+}
+.page {
+    display: flex;
+    justify-items: center;
+    height: 100vh;
+    align-items: center;
+    align-content: center;
+    background-color: white;
+}
+.page_inner {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+
+}
+.img-cont img {
+    height: 100%;
+    object-fit: contain;
+}
+.track-form {
+    width: 100%;
+    padding: 0 10vw;
+}
+.track-form input {
+    height: 45px;
+    width: 100%;
+}
